@@ -1,0 +1,23 @@
+.main{
+    width: 100%;
+    height: 100vh;
+    margin: auto;
+    background-color: tan;
+    }
+    h1{
+        text-align: center;
+    }
+    img{
+        width: 200px;
+        position: absolute;
+        bottom: -100vh;
+    }
+.item1{
+    animation: item1 5s;
+}
+    
+@keyframes item1{
+    to{
+        transform: translate();
+    }
+}

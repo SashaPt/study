@@ -1,0 +1,30 @@
+.square{
+    width: 500px;
+    height: 500px;
+    border: 1px solid red;
+    
+}
+.circle{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: red;
+    animation: down 5s ease-in;
+}
+@keyframes down{
+    50%{
+        transform: translate(100px, 450px);
+    }
+    60%{
+        transform: translate(150px, 300px);
+    }
+    70%{
+        transform: translate(200px, 450px);
+    }
+    80%{
+        transform: translate(250px, 350px);
+    }
+    100%{
+        transform: translate(300px, 450px);
+    }
+}

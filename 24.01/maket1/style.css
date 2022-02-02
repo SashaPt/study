@@ -1,0 +1,115 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+@import 'font.css';
+.container{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0% auto;
+}
+.row{
+    display: flex;
+}
+.baseline{
+    align-items: baseline;
+}
+.space_between{
+    justify-content: space-between;
+}
+ul{
+    list-style-type: none;
+}
+li.menu_item a{
+    text-decoration: none;
+    color: white;
+    font: 14pt 'Open Sans', sans-serif;
+    font-weight: bold;
+    padding: 0px 1px 14px;
+    border-bottom: 3px solid black;
+}
+li.menu_item a:hover{
+    border-bottom: 3px solid #fcac45;
+    transition: 0.5s;
+}
+.menu{
+    display: flex;
+}
+.menu_item{
+    margin-left: 37px;
+}
+header{
+    background-color: black;
+    padding-top: 56px;
+    padding-bottom: 420px;
+}
+.logo{
+    font: 24pt 'Open Sans', sans-serif;
+    font-weight: 800;
+    color: white;
+}
+.welcome{
+    font: 44pt 'Open Sans', sans-serif;
+    font-weight: 300;
+    color: #999999;
+    margin-top: 225px;
+    text-align: center;
+    line-height: 44pt;
+}
+.yellow{
+    font-weight: bold;
+    color: #fcac45;
+}
+.header_text{
+   color: #c3c3c3; 
+   font: 20pt 'Open Sans', sans-serif;
+   margin-top: 25px;
+   text-align: center;
+   line-height: 20pt;
+}
+.left{
+    padding-right: 174px;
+}
+.right{
+    display: flex;
+    flex-direction: column;
+}
+section.about_us{
+    margin: 104px 0px;
+    background-color: white;
+}
+h3.about_us{
+    font: 34pt 'Open Sans', sans-serif;
+    letter-spacing: -2pt;
+    color: #222222;
+    border-bottom: 3px solid #fcac45;
+    padding-bottom: 21px;
+    padding-top: 34px;
+}
+p.text_about_us{
+    font: 18pt 'Open Sans', sans-serif; 
+    color: #6c6c6c;
+    margin-top: 31px;
+    letter-spacing: -0.4pt;
+    margin-bottom: 49px;
+    line-height: 25pt;
+}
+ul.about_us li{
+    list-style-image: url(images/radio.png);
+    list-style-position: inside;
+    font: 16pt 'Open Sans', sans-serif; 
+    color: #5a5a5a;
+    letter-spacing: -0.1pt;
+    line-height: 25pt;
+}
+span.semibold{
+    font-weight: 600;
+    font-size: 18pt;
+
+}
+span.italic{
+    font-weight: 400;
+    font-style: italic;
+    font-size: 16pt;
+}
